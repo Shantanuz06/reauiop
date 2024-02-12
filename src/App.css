@@ -27,7 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+p {
+  font-size: calc(10px + 2vmin);
+}
+h4{
+  font-size: calc(15px + 2vmin);
+  font-size: 3rem;
 
+}
+.cs-main-content {
+    position: relative;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 3rem;
+    grid-template-columns: minmax(0,1fr);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
