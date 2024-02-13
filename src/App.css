@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -49,4 +49,22 @@ h4{
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display:grid;
+  grid-template-columns:auto auto;
+  justify-content:center;
+ 
+}
+.head {
+  text-align: left;
+  position: relative;
+  top: 0;
+
+  width: 100%;
+  border-bottom: var(1) solid var(1);
+  background: var();
+  
+  border: none;
 }

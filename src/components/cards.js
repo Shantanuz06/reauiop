@@ -35,7 +35,7 @@ import {
       {cardData.map((card, index) => (
           <Card className="Cards">
             <CardHeader
-              className="m-5 w-4/5 shrink rounded-r-">
+              className="m-1 w-5/5 shrink rounded-r-1">
               <img
                 src={card.imgsrc}
                 alt="src_img"
