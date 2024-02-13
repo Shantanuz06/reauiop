@@ -41,7 +41,7 @@ import {
                 alt="src_img"
               />
             </CardHeader>
-            <CardBody className="container">
+            <CardBody className="head">
               <Typography variant="h6" color="gray" className="mb-4 uppercase">
                 {card.title}
               </Typography>
