@@ -12,16 +12,25 @@ function App() {
          <NavbarSimple className=""/>
         </header>
     </div>
-    <div className='px-6 py-7'>
-    <p className="mb-2">Browsing Category</p>
-    <h4 className='text-title text-uppercase text-black mt-3 mb-2'> Courses </h4>
-    </div>
-    <div className='cs-main-content'> 
-          <SimpleCard/>
+    <span>
+      
+    </span>
+    <div className='containerinline grid items-center justify-around px-6 py-7'>
+      <div className='inline flex-col items-center justify-around px-6 py-7'>
+      <div  className='items-center justify-around'>
+        <p className="mb-2">Browsing Category</p>
+        <h4 className='text-title text-uppercase text-black mt-3 mb-2'> Courses </h4>
+      </div>
+      <div className='flex flex-wrap items-center justify-around'>
+      <span>
+      </span>
+            <SimpleCard/>
+      </div>
+      </div>
     </div>
     <div>
-       <footer className=' flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between'>
-          <SimpleFooter className=''/>
+       <footer className='flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0'>
+          <SimpleFooter/>
        </footer>
     </div>
   </div>
