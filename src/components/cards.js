@@ -9,6 +9,13 @@ import {
 
    const cardData = [
     {
+      title: 'course 0',
+      content: 'Content for course 0',
+      imgsrc: 'https://img.freepik.com/free-vector/world-map-with-global-technology-social-connection-network-with-nodes-links-vector-illustration_1284-1968.jpg?size=626&ext=jpg',
+      syllabus:"write your content or the topics covered in the course"
+
+    },
+    {
       title: 'course 1',
       content: 'Content for course 1',
       imgsrc: 'https://img.freepik.com/free-vector/world-map-with-global-technology-social-connection-network-with-nodes-links-vector-illustration_1284-1968.jpg?size=626&ext=jpg',

@@ -27,6 +27,9 @@ import {
     },
     {cname:"programming",
      cnos:"4" 
+    },
+    {cname:"hacking",
+     cnos:"9" 
     }
   ];
   export function ListWithBadge() {
